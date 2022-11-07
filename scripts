@@ -1,0 +1,29 @@
+web.sh
+
+cd /Users/andreyrac/dev/trulocal-website
+. venv/bin/activate
+
+
+ship.sh
+
+cd /Users/andreyrac/dev/trulocal-shipping
+. venv/bin/activate
+
+
+phx.sh
+
+cd /Users/andreyrac/dev/trulocal-phoenix
+. venv/bin/activate
+
+
+ep.sh
+
+cd /Users/andreyrac/dev/trulocal-endpoints
+. venv/bin/activate
+
+
+cypress.sh
+
+. ~/scripts/web.sh
+CYPRESS_BASE_URL=http://localhost:9000 npx cypress open
+

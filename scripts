@@ -27,3 +27,10 @@ cypress.sh
 . ~/scripts/web.sh
 CYPRESS_BASE_URL=http://localhost:9000 npx cypress open
 
+
+stencil.sh
+
+. cd ~/dev/cornerstone
+nvm use 12
+
+
